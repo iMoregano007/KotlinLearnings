@@ -20,9 +20,8 @@ fun main(){
 //    for loop
     println( "print 2's table using for loop")
 
-    var i = 1
-    index = i
-    for(i in 1..10){
-        println("" + num +" * " + index + " = " + num*index++)
+    for(i in 10 downTo 1 step 2){
+//        println("" + num +" * " + i + " = " + num*i)
+        println("$num * $i = ${num * i}")
     }
 }
