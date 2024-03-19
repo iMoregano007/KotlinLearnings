@@ -24,6 +24,5 @@ fun main(){
     index = i
     for(i in 1..10){
         println("" + num +" * " + index + " = " + num*index++)
-
     }
 }
