@@ -24,4 +24,10 @@ fun main(){
 //        println("" + num +" * " + i + " = " + num*i)
         println("$num * $i = ${num * i}")
     }
+
+    println()
+
+    for(i in 1 until 21 step 2){
+        println("$num * $i = ${num*i}")
+    }
 }
